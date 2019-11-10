@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CyberSpaceX - Netiquette</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+    color: rebeccapurple
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background-image: url('https://i.pinimg.com/originals/a1/95/ae/a195aedf584b9ee4eaa1c258cd404cfa.gif');
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+    /* SLIDE SHOW CSS*/
+    
+    * {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides2 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+} 
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+    background-image: 
+  url('#');
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Cyber Space Explorer</h1>
+  <p> Learn how you can be safe on the computer wherever you go ~ </p>
+</div>
+
+<div class="navbar">
+<a href="homee.html" >Home</a>
+  <a href="PasswordProtection.html">Password Protection</a>
+    <a href="Netiquette.html" class="active">Netiquette</a>
+  <a href="ShareInfo.html">Sharing information</a>
+<a href="gamepg.html" >Interactive Journey!</a>
+  <a href="#" class="right">Interland</a>
+</div>
+
+<div class="row">
+  <div class="side">
+   
+    <h3>Go Beyond!</h3>
+    <p>Lorem ipsum dolor sit ame.</p>
+      <div class="fakeimg" style="height:60px;"><a href= "https://www.techwalla.com/articles/what-is-the-golden-rule-of-netiquette">Golden Rules</a></div><br>
+       <div class="fakeimg" style="height:60px;"><a href= "https://www.britannica.com/topic/netiquette">Nettquette Def.</a></div><br>
+   <div class="fakeimg" style="height:60px;"><a href= "https://www.britannica.com/topic/netiquette">Game Quicklink:</a></div><br>
+  </div>
+  <div class="main">
+      
+   
+    <h2>Netiquette</h2>
+  
+      
+
+      
+      
+      
+      
+      
+      
+      
+      <!-- SLIDE SHOW CODE-->
+      
+      
+ <!-- <p>Fun Facts:</p>-->
+
+<div class="slideshow-container">
+
+<div class="mySlides2 fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="et1.png" style="width:100%">
+  <div class="text">Click right arrow for next slide ></div>
+</div>
+
+<div class="mySlides2 fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="et2.png" style="width:100%">
+ <!-- <div class="text">Caption Two</div> -->
+</div>
+
+<div class="mySlides2 fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="et3.png" style="width:100%">
+ <!-- <div class="text">Caption Three</div> -->
+</div>
+
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides2");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    <p>Why do you need netiquette?</p>
+      <p>Well first of all, what <i>is</i> netiquette?<br>It's just how it sounds, internet etiquette, or netiquette. Maintiaining good internet etiquette is a key thing characteristic that all cyberspace trekkers should have. People ofter foreget that behind those wacky usernames, lies real, alive humans. As a result, people on the computer tend to do and say things to eachother that they normally wouldn't. Another reason for this is because they feel that they can hide behind their profile picture<br> Lack of netiquette could result in cyberbullying, harassment, bullycide, and many more problems. Not to mention, if you aren't polite on the web, you could get a lot of hate for it, it doesn't matter what your age is or whether it was intentional or unintentional. </p>
+       
+      
+    <br>
+    
+    <!--<p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>-->
+
+</body>
+</html>
+
+  
+  
